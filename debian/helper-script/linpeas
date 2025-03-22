@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+set -e
+
+/usr/share/blacktrack-exec/blacktrack-cd /usr/share/linpeas

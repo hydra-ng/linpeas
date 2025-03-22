@@ -1,0 +1,20 @@
+Source: linpeas
+Section: misc
+Priority: optional
+Maintainer: joe <joe@rstrike.my.id>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: https://github.com/peass-ng/PEASS-ng
+Vcs-Browser: https://gitlab.com/blacktracksec/packages/linpeas
+Vcs-Git: https://gitlab.com/blacktracksec/packages/linpeas.git
+
+Package: linpeas
+Architecture: any
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Recommends: netcat-traditional, openssh-client
+Description: PEASS-ng - Privilege Escalation Awesome 
+	Scripts SUITE new generation

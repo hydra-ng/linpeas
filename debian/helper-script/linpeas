@@ -2,4 +2,14 @@
 
 set -e
 
-/usr/share/blacktrack-exec/blacktrack-cd /usr/share/linpeas
+LINPEAS_DIR="/usr/share/linpeas"
+
+if [ -d "$LINPEAS_DIR" ]; then
+	ls $LINPEAS_DIR
+	echo -e "LINPEAS available on $LINPEAS_DIR, use 'cd $LINPEAS_DIR'"
+else
+	echo "Error: LINPEAS on $LINPEAS_DIR not detected use as suda/root user apt install linpeas"
+	exit 1
+fi
+
+# remove this because we dont need this for now /usr/share/blacktrack-exec/blacktrack-cd /usr/share/linpeas

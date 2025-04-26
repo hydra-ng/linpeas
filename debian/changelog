@@ -1,5 +1,11 @@
 linpeas (2024.11.01-1) UNRELEASED; urgency=medium
 
+  * Change Target DIR to /usr/local/Library/* Make sure /usr/share still clean
+
+ -- Joe <joe@rstrike.my.id>  Sat, 26 Apr 2025 15:00:00 +0000
+
+linpeas (2024.11.01-1) UNRELEASED; urgency=medium
+
   * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
  -- joe <joe@localhost.localdomain>  Fri, 01 Nov 2024 14:44:26 -0400

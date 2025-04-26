@@ -1,4 +1,3 @@
-linpeas* usr/share/linpeas/
-win* usr/share/linpeas
-debian/helper-script/linpeas usr/bin/
-
+linpeas* usr/local/Library/Applications/linpeas/
+win* usr/local/Library/Applications/linpeas
+debian/helper-script/linpeas usr/local/Library/bin

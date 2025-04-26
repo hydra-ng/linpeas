@@ -2,7 +2,7 @@
 
 set -e
 
-LINPEAS_DIR="/usr/share/linpeas"
+LINPEAS_DIR="/usr/local/Library/linpeas"
 
 if [ -d "$LINPEAS_DIR" ]; then
 	ls $LINPEAS_DIR

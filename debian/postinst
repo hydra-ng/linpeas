@@ -1,1 +1,1 @@
-chmod +x /usr/local/Library/linpeas
+chmod 775 /usr/local/Library/bin/linpeas
